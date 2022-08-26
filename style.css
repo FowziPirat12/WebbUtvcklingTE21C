@@ -1,12 +1,18 @@
 body{
-    background-color:rgb(247, 248, 248);
-    color:black;
+    background-color:rgb(8, 46, 46);
+    color:rgb(2, 250, 134);
 }
 
 h1{
+font-family: Arial;
+    text-align:center;
+    font-size: 22px;
+}
+.styck{
+color:crimson
+
+}
+.styck{
     text-align:center;
 }
 
-p{
-    border:22px solid black;
-}
