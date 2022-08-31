@@ -8,11 +8,14 @@ font-family: Arial;
     text-align:center;
     font-size: 22px;
 }
-.styck{
-color:crimson
+.styck1{
+    border: 1px solid blue;
+}
+.styck3{
+    text-align: center;
+  
+}
+.styck4{
+    text-align: center;
 
 }
-.styck{
-    text-align:center;
-}
-
