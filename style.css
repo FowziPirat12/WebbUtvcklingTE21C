@@ -1,21 +1,28 @@
 body{
-    background-color:rgb(8, 46, 46);
-    color:rgb(2, 250, 134);
+    background-color: rgb(59, 206, 181);
+    color: black;
+    text-align: center;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 80px 50px aouto 50px;
+    grid-template-areas: 
+    "header header"
+    "nav nav"
+    "main aside"
+    "footer footer";
 }
 
 h1{
-font-family: Arial;
-    text-align:center;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 22px;
 }
-.styck1{
-    border: 1px solid blue;
-}
-.styck3{
+h2{
     text-align: center;
-  
+    color: black;   
 }
-.styck4{
-    text-align: center;
 
+p:nth-child(2){
+    /* border:3px solid;*/
 }

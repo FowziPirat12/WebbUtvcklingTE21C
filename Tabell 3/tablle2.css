@@ -1,5 +1,6 @@
 table{
     border:solid black;
+    border-collapse: collapse;
     width: 200px;
     height: 200px;
 }
