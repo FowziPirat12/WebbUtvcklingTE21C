@@ -1,5 +1,5 @@
 body{
-   background-color: rgb(255, 255, 255);
+   background-color: rgb(128, 255, 249);
    color: black;
    grid-template-columns:1fr 1fr ;
     grid-template-rows:80px 50px auto 50px ;
@@ -84,15 +84,26 @@ nav li{
     list-style: none;
     text-align: center;
     font-size: 1.5em;
+    width: 98%;
 }
 
 section{
     font-size: 2.5em;
-    font-family: Georgia;
+    font-family:'Times New Roman';
 }
 
 #index2 main{
     font-family:'Times New Roman';
     font-size: 20px;
-
 }
+
+#index3 section{
+    text-align:center;
+}
+
+#index3 main{
+    font-family: 'Times New Roman';
+    text-align: center;
+}
+
+
