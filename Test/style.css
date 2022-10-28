@@ -1,18 +1,18 @@
 body{
-   background-color: rgb(128, 255, 249);
-   color: black;
-   grid-template-columns:1fr 1fr ;
-    grid-template-rows:80px 50px auto 50px ;
-    grid-template-areas: 
+   background-color: rgb(128, 255, 249); /*Bakgrundsfärg*/
+   color: black; /*Textens färg*/
+   grid-template-columns:1fr 1fr ; /*Anger hur många kolumner på en sida*/
+    grid-template-rows:80px 50px auto 50px ; /*Raderna på kolumner*/
+    grid-template-areas:  /*Lägger till gridar*/
     "header header"
     "nav nav"
-    "main aside"             /*Göt texterna till svart färg, lägger till kolumner i header, nav, main, footer*/  
+    "main aside"             
     "footer footer";
 }           
 
 header{
     grid-area: header;
-    text-align: center;     /*Ändrar texten till Georgia och lägger texten i mitten*/
+    text-align: center;     /*Ändrar texten till Georgia och lägger texten i mitten, lägger till en grid på header*/
     font-family: Georgia;    
 }
 h1{
@@ -42,7 +42,7 @@ li:nth-child(3){
 }
 
 body th, td{
-    border: 1px solid ;     /*Lägger en border på tabellerna,*/
+    border: 1px solid ;     /*Lägger en border på tabellerna,ändrar tjokleken*/
     width: 25% ; 
 
 }
@@ -51,18 +51,18 @@ table{
     border-spacing: 0px;   /*Gör så att tabellerna trycks ihåp och inte har space i mellan sig*/
     }
     
-    th:nth-child(1){ 
+    th:nth-child(1){  /*Flyttar tecten till vänstra sidan av tabellen*/
     text-align: left;
     }
     
-    td:nth-child(2), td:nth-child(3){
+    td:nth-child(2), td:nth-child(3){ 
     text-align: center;
     }
     
     td:nth-child(4), th:nth-child(4){
     text-align: right;
     }
-    thead > tr:nth-child(1){
+    thead > tr:nth-child(1){ /*Ger en bakgrundsfärg till första kolumnen*/
     background-color: rgb(0, 255, 149);
     }
     
@@ -76,12 +76,12 @@ table{
 
 nav ul{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;     /**/
-    padding: 0%;
-    margin: 0%;
+    grid-template-columns: 1fr 1fr 1fr;     /*Lägger till kolumner på sidorna*/
+    padding: 0%;  /*Inner marginal*/
+    margin: 0%; /*Den sätter margin*/
 }
 
-nav li{
+nav li{ /*Ger inte punktlistan en en stil (t ex a,b,c eller 1,2,3), flyttar texten till mitten, storlek på texten, för */
     list-style: none;
     text-align: center;
     font-size: 1.5em;
@@ -89,25 +89,25 @@ nav li{
 }
 
 section{
-    font-size: 2.5em;
+    font-size: 2.5em; /*Text storleken*/
     font-family:'Times New Roman';
 }
 
 #index2 main{
-    font-family:'Times New Roman';
-    font-size: 20px;
+    font-family:'Times New Roman'; /*Text typen*/
+    font-size: 20px; /*Text storleken*/
 }
 
 #index3 section{
     text-align:center;
 }
 
-#index3 main{
-    font-family: 'Times New Roman';
-    text-align: center;
-    border: 1px solid;
-    border-radius:200px;
-    border-width: 2px
+#index3 main{ 
+    font-family: 'Times New Roman'; /* Text typen*/
+    text-align: center; /*Flyttar texten så att den är på mitten*/
+    border: 1px solid; /*Lägger till en border*/
+    border-radius:200px; /*Rundar till kanterna*/
+    border-width: 3px; /*tjockleken på border*/
     
 }
 
